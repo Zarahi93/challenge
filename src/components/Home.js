@@ -22,6 +22,11 @@ export default function Home() {
         <p className="nav">Work</p>
     </section>
     <section id='postsection'>
+        <article className="post">Post 1dfg</article>
+        <article className="post">Post 2xdyvukdasdfgjkjhgfdsdfghjghfdsfghjhgdfdsfghdfgh</article>
+        <article className="post">Post 3</article>
+        <article className="post">Post 4asdfghjklñlkjhgfds</article>
+
     
     </section>
     {/* <footer id='mainfooter'>
