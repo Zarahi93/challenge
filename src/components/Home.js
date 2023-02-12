@@ -26,9 +26,6 @@ export default function Home() {
     <section id='mainsection'> 
     <Outlet />
     </section>
-    {/* <footer id='mainfooter'>
-        <button  id='log-out'></button>
-    </footer> */}
 </main>
   );
 }
