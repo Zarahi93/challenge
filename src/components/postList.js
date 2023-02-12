@@ -1,13 +1,14 @@
 import React from "react";
-import PostItem from "./postItem";
 import "./postlist.css";
 
 export default function PostList() {
-    const notes = [{ nota: "algo", id: 13123 }, { nota: "algo2", id: 34534 }, { nota: "algo3", id: 45656765 }, { nota: "algo4", id: 45646765 }];
-   
+    const posts = [{ title: 'Post 1', body: "13123" }, { title: 'Post 2', body: "34534" }, { title: 'Post 3', body: "jfddcvbhjbbyuijn, cfvygbhnjkxdcfvgh" }, { title: ' Post 4', body: "45646765" },]
     return (
           <section className="post-list">
-          {notes.map((note) => <PostItem key={note.id} note={note} />)}
+          { posts.map((post) => <article className="post" key={post.id} style={{ backgroundImage: `url("https://source.unsplash.com/random")`}}>
+          <p className="title"> {post.title} </p>
+          <p className="body">{post.body}</p>
+        </article>)}
           </section>
     );
   }
