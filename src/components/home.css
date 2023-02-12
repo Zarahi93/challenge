@@ -32,20 +32,3 @@ font-size: 50px;
     border-width: 1px;
     border-style: solid;
 }
-
-#postsection{
-    margin-top: 2vh;
-    display: -ms-grid;
-    display: grid;
-    grid-auto-columns: 1fr;
-    -ms-grid-columns: 1fr 1fr ;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
-
-}
-
-.post{
-    margin: 1vh 2vw;
-    width: 48vw;
-}

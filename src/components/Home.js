@@ -1,4 +1,6 @@
 //import { useNavigate } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+
 import "./home.css";
 
 export default function Home() {
@@ -21,13 +23,8 @@ export default function Home() {
         <p className="nav">Food</p>
         <p className="nav">Work</p>
     </section>
-    <section id='postsection'>
-        <article className="post">Post 1dfg</article>
-        <article className="post">Post 2xdyvukdasdfgjkjhgfdsdfghjghfdsfghjhgdfdsfghdfgh</article>
-        <article className="post">Post 3</article>
-        <article className="post">Post 4asdfghjklñlkjhgfds</article>
-
-    
+    <section id='mainsection'> 
+    <Outlet />
     </section>
     {/* <footer id='mainfooter'>
         <button  id='log-out'></button>

@@ -1,0 +1,20 @@
+.post{
+    margin: 10px;
+    width: 48vw;
+    height: 60vh;
+    word-break: break-word;
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+
+.title {
+    margin: 0%;
+    padding: 2%;
+}
+
+.body{
+    margin: 0%;
+    padding: 2%;
+
+}
